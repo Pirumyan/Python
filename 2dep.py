@@ -1,7 +1,7 @@
 def deepcopy(lis: list) -> list:
     """list will give back new deepcopy list,
-    In this functia I (GOr) will try make impliment,
-    I don`t  Care will do it Niggaa"""
+        In this function I (GOr) will try make implement,
+        I don`t  Care will do it Nigga"""
     # arajin depqum palyubomu stacvelu a list u aystexic sksum a mi hetaqrqir irakanutyun
     if isinstance(lis, list):
         new_list = []
