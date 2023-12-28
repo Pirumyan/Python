@@ -18,7 +18,7 @@ class MyProperty:
         return self.fget(instance)
 
     def __set__(self, instance, value):
-        if self is None:
+        if self.fset is None:
             raise AttributeError('sahmani nor ogtagorci')
         self.fset(instance, value)
 
